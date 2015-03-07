@@ -1,0 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Abel|Poiret+One|Josefin+Sans|Indie+Flower);
+        body{
+		   margin: 0 auto;
+		   font: 20px 'Indie Flower';
+		   background-color: <#ccccff>;
+		   font-weight: 400;
+		   color: #000000;
+		}
