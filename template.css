@@ -1,16 +1,104 @@
 @import url(http://fonts.googleapis.com/css?family=Abel|Poiret+One|Josefin+Sans|Indie+Flower);
-        body{
+        header{
+		    background-color: #480607;
+			position: fixed;
+			z-index: 2;
+			height: 80px;
+			width: 100%;
+		}
+		body{
 		   margin: 0 auto;
-		   font: 20px 'Indie Flower';
-		   background-color: <#ccccff>;
+		   font: 26px 'Indie Flower';
 		   font-weight: 400;
 		   color: #000000;
+		   line-height: 100px;
+		   background-image: url(gplaypattern.png);
 		}
-		
-		#one {
-		   color: #fff0f5;
+
+		div#header-title{
+		    font: 36px 'Poiret One';
+			color: #fff8dc;
+		    display: inline-block;
+			float: left;
+			padding: 20px;
 		}
-		
-		#two{
-		    color: #800020;
+		nav{
+		    font: 26px 'Poiret One';
+		    color: #fff8dc;
+		    display: inline-block;
+		    float: right;
+			padding: 20px;
+		}
+		nav ul{
+		    padding: 0;
+			margin: 0px 0px 0px 10px; 
 	    }
+		nav li{
+		    color: #fff8dc;
+		    display: inline-block;
+			margin-left: 20px;
+			
+	    }
+		
+		nav a:link, nav :visited {
+			color: #ffffff;
+			text-decoration: none;
+		}
+		
+		nav a:hover {
+			color: yellow;
+			text-decoration: none;
+		}
+		
+		section#welcome{
+		    width: 100%;
+
+		}
+		
+		main {
+			display:block;
+			padding-top: 80px;
+		}
+		
+		div#welcome-text{
+		    margin-top: 25px;
+		    width: 100%;
+			font: 56px 'Josefin Sans';
+			position: abosolute;
+			text-align: center;
+			text-shadow: 2px 2px 2px #000000;
+		}
+		
+		section#about{
+		    text-align: center;
+		}
+		
+		h1.title{
+		  	font: 36px 'Poiret One';
+			color: #fff8dc;
+		}
+		
+		div.three-items{
+		    display: block;
+			text-align: center;
+			width: 100%;
+		}
+		
+		div.item{
+		    text-align: center;
+		    background-color: #480607;
+			color: #fff8dc;
+		    display: inline-block;
+			width: 30%;
+			margin-right: 20px;
+			height: 500px;
+			vertical-align: top;
+		}
+		
+		div.table {
+            display: table;
+            table-layout: fixed; /* All cells will have equal width */
+            width: 100%;
+            text-align: center; /* Centers the table in the section */
+        }
+		
